@@ -29,7 +29,7 @@ Sending API request using wget:
 
 In both cases, the hash "5f4dcc3b5aa765d61d8327deb882cf99" is decrypted into "password".
 
-Changes in the hashdump plugin:
+Modifying the hashdump plugin:
 
 ```
     def _generator(
