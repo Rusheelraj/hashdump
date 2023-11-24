@@ -1,11 +1,11 @@
 # hashdump
 A Python-based tool for interacting with the Hashes.com API to decrypt hash values. This utility is designed for cybersecurity professionals, ethical hackers, and anyone interested in hash decryption. It simplifies sending hash values and retrieving their plaintext counterparts using the MD5 algorithm by integrating it with a third-party web application. 
 
-Free API: md5decrypt.net
+### Free API: md5decrypt.net
 
 The first integration involves a free API provided by md5decrypt.net, a widely recognized platform for its efficiency in decrypting md5 hash type. This integration primarily serves users requiring basic hash decryption services without incurring costs. It demonstrates a commitment to providing accessible solutions while maintaining quality and efficiency.
 
-Pseudo Code:
+#### Pseudo Code:
 The _generator function takes two arguments: syshive (System Hive) and samhive (SAM Hive).
 It checks the validity of these hives and retrieves necessary keys (bootkey and hbootkey).
 For each user in the SAM hive, it retrieves their LM and NT hashes.
@@ -15,13 +15,13 @@ A GET request is sent to this URL, and the response, which presumably contains t
 The function then yields a tuple containing user details, including the cracked password.
 The run function sets up the hives and calls _generator, organizing the returned data into a structured format for presentation or further processing.
 
-Sending API request using curl:
+##### Sending API request using curl:
 
 ``` curl -w '\n' "https://md5decrypt.net/en/Api/api.php?hash=5f4dcc3b5aa765d61d8327deb882cf99&hash_type=md5&email=rpanakadan2022@my.fit.edu&code=73c74dfc79d2bdb6" ```
 
 ![image](https://github.com/Rusheelraj/hashdump/assets/30828807/f892d7ef-80be-4342-87b3-eaeace94d054)
 
-Sending API request using wget:
+##### Sending API request using wget:
 
 ``` wget -qO- "https://md5decrypt.net/en/Api/api.php?hash=5f4dcc3b5aa765d61d8327deb882cf99&hash_type=md5&email=rpanakadan2022@my.fit.edu&code=73c74dfc79d2bdb6"; echo ```
 
@@ -29,7 +29,7 @@ Sending API request using wget:
 
 In both cases, the hash "5f4dcc3b5aa765d61d8327deb882cf99" is decrypted into "password".
 
-Modifying the hashdump plugin:
+#### Modifying the hashdump plugin:
 
 ```
     def _generator(
@@ -89,11 +89,11 @@ Modifying the hashdump plugin:
 
 ```
 
-Paid API: hashes.com
+### Paid API: hashes.com
 
 The second aspect of our integration encompasses a more advanced, paid service via the hashes.com API. This API operates on a credit-based system, offering more decryption algorithms and higher processing capabilities. It's tailored for more complex and demanding decryption tasks, making it an ideal choice for professional environments where precision and a wide array of functionalities are paramount.
 
-Pseudo Code:
+#### Pseudo Code:
 The _generator function takes two arguments: syshive (System Hive) and samhive (SAM Hive).
 It checks the validity of these hives and retrieves necessary keys (bootkey and hbootkey).
 For each user in the SAM hive, it retrieves their LM and NT hashes.
@@ -105,7 +105,7 @@ The function yields user details including the decrypted plaintext password.
 The run function initializes syshive and samhive, identifies the relevant hives, and calls _generator to process each user.
 The results are formatted into a grid for display or further processing.
 
-Sending API request using curl:
+##### Sending API request using curl:
 
 ```
 curl -X POST -H "Content-type: multipart/form-data" \
@@ -116,7 +116,7 @@ curl -X POST -H "Content-type: multipart/form-data" \
 
 ![image](https://github.com/Rusheelraj/hashdump/assets/30828807/f4113967-d88b-4bf3-adb8-6f3833927b4d)
 
-Modifying the hashdump plugin:
+#### Modifying the hashdump plugin:
 
 ```
     def _generator(
