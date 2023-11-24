@@ -32,10 +32,6 @@ In both cases, the hash "5f4dcc3b5aa765d61d8327deb882cf99" is decrypted into "pa
 #### Modifying the hashdump plugin:
 
 ```ruby
-Something goes here
-```
-
-```
     def _generator(
         self, syshive: registry.RegistryHive, samhive: registry.RegistryHive
     ):
@@ -122,7 +118,7 @@ curl -X POST -H "Content-type: multipart/form-data" \
 
 #### Modifying the hashdump plugin:
 
-```
+```ruby
     def _generator(
         self, syshive: registry.RegistryHive, samhive: registry.RegistryHive
     ):
