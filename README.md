@@ -89,6 +89,11 @@ In both cases, the hash "5f4dcc3b5aa765d61d8327deb882cf99" is decrypted into "pa
 
 ```
 
+### Output for the modified plugin:
+
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/db70c41d-1706-4de8-a31d-8480dd5dd90a)
+
+
 ### Paid API: hashes.com
 
 The second aspect of our integration encompasses a more advanced, paid service via the hashes.com API. This API operates on a credit-based system, offering more decryption algorithms and higher processing capabilities. It's tailored for more complex and demanding decryption tasks, making it an ideal choice for professional environments where precision and a wide array of functionalities are paramount.
@@ -183,6 +188,11 @@ curl -X POST -H "Content-type: multipart/form-data" \
         )
 
 ```
+
+### Output for the modified plugin:
+
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/7dad7eeb-ccfe-4df3-ac6d-5c39ea5eead9)
+
 
 
 
