@@ -1,4 +1,4 @@
-# hashdump
+# Cracked Hashdump
 A Python-based tool for interacting with the Hashes.com API to decrypt hash values. This utility is designed for cybersecurity professionals, ethical hackers, and anyone interested in hash decryption. It simplifies sending hash values and retrieving their plaintext counterparts using the MD5 algorithm by integrating it with a third-party web application. 
 
 ### Free API: md5decrypt.net
