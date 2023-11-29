@@ -202,6 +202,16 @@ Testing - 2 (Windows 7 SP1):
 
 ![image](https://github.com/Rusheelraj/hashdump/assets/30828807/297ece71-fe3a-4b21-a350-08ab1ec03821)
 
+Testing - 3 (Windows 2012 Server):
+
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/07dd7021-2cdb-4e45-8c2f-6090a253c7bd)
+
+
+// Additional Testing - 4 (Windows 7 SP1):
+
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/1a931c69-6a91-4324-8bc2-db4a4a8b7f44)
+
+
 
 
 
