@@ -124,7 +124,7 @@ curl -X POST -H "Content-type: multipart/form-data" \
 #### Modifying the hashdump plugin:
 
 ```ruby
-    def _generator(
+        def _generator(
         self, syshive: registry.RegistryHive, samhive: registry.RegistryHive
     ):
         if syshive is None:
@@ -158,8 +158,10 @@ curl -X POST -H "Content-type: multipart/form-data" \
                     response = requests.post(url, files=files)
                     if response.status_code == 200:
                         data = response.json()
-                        if data['success'] and data['count'] > 0:
+                        if data['success'] and data['count'] > 0 and 'founds' in data and len(data['founds']) > 0:
                            plaintext = data['founds'][0]['plaintext']
+                        else:
+                           plaintext = "Not found"
 
                     yield (0, (name, rid, lmout, ntout, plaintext))
         else:
