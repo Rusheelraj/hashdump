@@ -193,9 +193,13 @@ curl -X POST -H "Content-type: multipart/form-data" \
 
 ![image](https://github.com/Rusheelraj/hashdump/assets/30828807/7dad7eeb-ccfe-4df3-ac6d-5c39ea5eead9)
 
-Testing an external windows memory dump:
+Testing -1 (Windows 8):
 
 ![image](https://github.com/Rusheelraj/hashdump/assets/30828807/0544c554-0c4a-4032-a38b-49d138125a33)
+
+Testing - 2 (Windows 7 SP1):
+
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/517633b7-975d-434d-b621-55f955f57e93)
 
 
 
