@@ -195,11 +195,13 @@ curl -X POST -H "Content-type: multipart/form-data" \
 
 Testing -1 (Windows 8):
 
-![image](https://github.com/Rusheelraj/hashdump/assets/30828807/0544c554-0c4a-4032-a38b-49d138125a33)
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/ef2d2486-f746-47cc-8552-0ab380af4510)
+
 
 Testing - 2 (Windows 7 SP1):
 
-![image](https://github.com/Rusheelraj/hashdump/assets/30828807/517633b7-975d-434d-b621-55f955f57e93)
+![image](https://github.com/Rusheelraj/hashdump/assets/30828807/297ece71-fe3a-4b21-a350-08ab1ec03821)
+
 
 
 
