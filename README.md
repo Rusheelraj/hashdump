@@ -195,18 +195,50 @@ curl -X POST -H "Content-type: multipart/form-data" \
 
 ![image](https://github.com/Rusheelraj/hashdump/assets/30828807/7dad7eeb-ccfe-4df3-ac6d-5c39ea5eead9)
 
-Testing -1 (Windows 8):
+### Testing -1 (Windows 8):
 
-![image](https://github.com/Rusheelraj/hashdump/assets/30828807/ef2d2486-f746-47cc-8552-0ab380af4510)
+#### Result with actual volatility3 windows.hashdump plugin 
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/73d27b5e-3b82-4191-a03c-a89aeaacdb24)
 
+#### Result with our modified plugin with free AIP (md5decrypt)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/e5ff3e2e-62c9-4539-a89c-18f2cfbd6067)
 
-Testing - 2 (Windows 7 SP1):
+#### Result with our modified plugin with premium AIP (hashes.com)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/111bc5b2-b532-4636-b32f-0af9b551b824)
 
-![image](https://github.com/Rusheelraj/hashdump/assets/30828807/297ece71-fe3a-4b21-a350-08ab1ec03821)
+### Testing -2 (Windows 7 SP1):
 
-Testing - 3 (Windows 2012 Server):
+#### Result with actual volatility3 windows.hashdump plugin 
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/460469a7-137b-4aa8-b311-12f26ef2c2c8)
 
-![image](https://github.com/Rusheelraj/hashdump/assets/30828807/07dd7021-2cdb-4e45-8c2f-6090a253c7bd)
+#### Result with our modified plugin with free AIP (md5decrypt)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/ffb39602-2996-437c-ab4b-3888fabf6f60)
+
+#### Result with our modified plugin with premium AIP (hashes.com)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/56858032-5184-4930-b44f-9d50b3c5290d)
+
+### Testing -3 (Windows 7 SP1):
+
+#### Result with actual volatility3 windows.hashdump plugin 
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/2f656234-c97a-4f16-9b8e-6a5ca20d0307)
+
+#### Result with our modified plugin with free AIP (md5decrypt)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/6ee2266a-3728-4447-9598-d5a3767916de)
+
+#### Result with our modified plugin with premium AIP (hashes.com)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/8841c7e4-f820-450a-bf73-7c680ead0de8)
+
+### Testing -4 (Windows 12):
+
+#### Result with actual volatility3 windows.hashdump plugin 
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/988c84ac-853e-428f-823d-977a0f6ef617)
+
+#### Result with our modified plugin with free AIP (md5decrypt)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/63bc52c2-4cbf-4009-8c82-96ccb2e7b639)
+
+#### Result with our modified plugin with premium AIP (hashes.com)
+![image](https://github.com/Rusheelraj/hashdump/assets/134104519/5ce4bd37-0707-42e0-a79c-9e448184be21)
+
 
 
 // Additional Testing - 4 (Windows 7 SP1):
