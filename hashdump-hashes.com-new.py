@@ -589,7 +589,7 @@ class Hashdump(interfaces.plugins.PluginInterface):
                     rid = int(str(user.get_name()), 16)
                     url = 'https://hashes.com/en/api/search'
                     files = {
-                         'key': (None, '471f232d3aec5eb5a79c89bed2bdd17a'),
+                         'key': (None, '[Replace_API_key_here]'),
                          'hashes[]': (None, ntout)
                     }
                     response = requests.post(url, files=files)
