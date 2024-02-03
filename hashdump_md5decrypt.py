@@ -587,7 +587,7 @@ class Hashdump(interfaces.plugins.PluginInterface):
                     lmout = str(binascii.hexlify(lmhash or self.empty_lm), "latin-1")
                     ntout = str(binascii.hexlify(nthash or self.empty_nt), "latin-1")
                     rid = int(str(user.get_name()), 16)
-                    api_url = f"https://md5decrypt.net/en/Api/api.php?hash={ntout}&hash_type=md5&email=rpanakadan2022@my.fit.edu&code=73c74dfc79d2bdb6"
+                    api_url = f"https://md5decrypt.net/en/Api/api.php?hash={ntout}&hash_type=md5&email=replace_api_email_here&code=replace_api_code_here"
                     response = requests.get(api_url)
                     cracked_password = response.text.strip()
                     yield (0, (name, rid, lmout, ntout, cracked_password))
